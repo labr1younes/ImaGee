@@ -14,12 +14,13 @@ To use the ImaGee , follow these steps:
 `git clone https://github.com/labr1younes/ImaGee.git`
 2. Install Tesseract OCR .
 3. Step into the project folder: `cd ImaGee`
-4. Add `.env` file with these values:
+4. Run this command `pip install -r requirements.txt`
+5. Add `.env` file with these values:
 
         SECRET_KEY="flask app secret key"
         TESSERACTS_PATH="tesseract.exe OCR app instlation path"
         UPLOAD_PATH="image uplodaing path folder"
-5. And you are done , you can lunch the flask app. 
+6. And you are done , you can lunch the flask app. 
 
 ## Contribution
 
